@@ -31,12 +31,12 @@ local MainSection = MainTab:CreateSection("Main")
 
 Rayfield:Notify({
    Title = "You executed the script",
-   Content = "Very cool gui",
+   Content = "欢迎使用此脚本",
    Duration = 5,
    Image = 13047715178,
    Actions = { -- Notification Buttons
       Ignore = {
-         Name = "Okay!",
+         Name = "好的",
          Callback = function()
          print("The user tapped Okay!")
       end
