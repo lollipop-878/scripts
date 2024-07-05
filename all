@@ -174,3 +174,17 @@ local Button3 = TPTab:CreateButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/lollipop-878/scripts/main/chat%20esp"))()
    end,
 })
+
+local Button4 = TPTab:CreateButton({
+   Name = "fly",
+   Callback = function()
+        loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Fly-GUI-V3-9511"))()
+   end,
+})
+
+local Button5 = TPTab:CreateButton({
+   Name = "a dusty trip",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/ADustyTrip",true))()
+   end,
+})
