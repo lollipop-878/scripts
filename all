@@ -152,7 +152,7 @@ local Button3 = TPTab:CreateButton({
    end,
 })
 
-local TPTab = Window:CreateTab("🎲 Misc", nil) -- Title, Image
+local TPTab = Window:CreateTab("🎲 脚本 ", nil) -- Title, Image
 
 local Button1 = TPTab:CreateButton({
    Name = "aimbot",
