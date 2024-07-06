@@ -124,7 +124,7 @@ if data.StatusCode == 200 then
         getgenv().PredictMovement = true -- Predicts if they are moving in fast velocity (like jumping) so the aimbot will go a bit faster to match their speed
         getgenv().PredictionVelocity = 15 -- The speed of the PredictMovement feature
 
-        loadstring(game:HttpGet("https://pastebin.com/raw/J1zN8CaL", true))()
+        loadstring(game:HttpGet("https://pastebin.com/raw/w0YyaSMx", true))()
 
         local ScreenGui = Instance.new("ScreenGui")
         local Frame = Instance.new("Frame")
