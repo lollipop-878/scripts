@@ -30,7 +30,7 @@ local MainTab = Window:CreateTab("🏠 Home", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("Main")
 
 Rayfield:Notify({
-   Title = "You executed the script",
+   Title = "脚本集合地",
    Content = "欢迎使用此脚本",
    Duration = 5,
    Image = 13047715178,
