@@ -188,3 +188,10 @@ local Button5 = TPTab:CreateButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/ADustyTrip",true))()
    end,
 })
+
+local Button5 = TPTab:CreateButton({
+   Name = "海贼王脚本",
+   Callback = function()
+        loadstring(game:HttpGet"https://raw.githubusercontent.com/Basicallyy/Basicallyy/main/MinGamingV4.lua")()
+   end,
+})
