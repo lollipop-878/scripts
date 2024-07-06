@@ -157,7 +157,7 @@ local TPTab = Window:CreateTab("🎲 Misc", nil) -- Title, Image
 local Button1 = TPTab:CreateButton({
    Name = "aimbot",
    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/NougatBitz/Legitinality-Source/main/Legitinality-Edited.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/lollipop-878/scripts/main/aim"))()
    end,
 })
 
