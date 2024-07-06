@@ -1,8 +1,8 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "🔥 Ex 脚本大全 | Game 🔫",
-   LoadingTitle = "🔫 Gun Simulator 💥",
+   Name = "🔥 脚本大全 | Game 🔥",
+   LoadingTitle = "🔥 脚本大全 | Game 🔥",
    LoadingSubtitle = "by Fzy",
    ConfigurationSaving = {
       Enabled = false,
@@ -18,7 +18,7 @@ local Window = Rayfield:CreateWindow({
    KeySettings = {
       Title = "请输入你的密码",
       Subtitle = "密码系统",
-      Note = "密码是 222 ",
+      Note = "密码 来问我  YIN 是我的男神 你们谁都别欺负他🥰🥰🥰 ",
       FileName = "YoutubeHubKey1", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
       SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
       GrabKeyFromSite = true, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
