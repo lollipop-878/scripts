@@ -1,25 +1,4 @@
-local data = {
-    StatusCode = 200;
-    Response   = "uwu"
-}
-if data.StatusCode == 200 then
-    if data.Response == "uwu" then
-        local Plr = game:GetService("Players").LocalPlayer
-        local Mouse = Plr:GetMouse()
-
-        Mouse.Button1Down:connect(
-            function()
-                if not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftAlt) then
-                    return
-                end
-                if not Mouse.Target then
-                    return
-                end
-                Mouse.Target:Destroy()
-            end
-        )
-
-        --This script reveals ALL hidden messages in the default chat
+--This script reveals ALL hidden messages in the default chat
         --chat "/spy" to toggle!
         enabled = true
         --if true will check your messages too
@@ -113,7 +92,3 @@ if data.StatusCode == 200 then
         chatFrame.ChatBarParentFrame.Position =
             chatFrame.ChatChannelParentFrame.Position + UDim2.new(UDim.new(), chatFrame.ChatChannelParentFrame.Size.Y)
         --Credit to who ever made this - venomous
-
-        --credit to whoever made this lock ciz
-        getgenv().AimPart = "HumanoidRootPart" -- For R15 Games: {UpperTorso, LowerTorso, HumanoidRootPart, Head} | For R6 Games: {Head, Torso, HumanoidRootPart}
-        getgenv().AimlockToggleKey = "Y" -- Toggl
