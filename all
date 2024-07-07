@@ -146,9 +146,9 @@ local Button2 = TPTab:CreateButton({
 })
 
 local Button3 = TPTab:CreateButton({
-   Name = "Pineapple Paradise",
+   Name = "aim2",
    Callback = function()
-        --Teleport3
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/lollipop-878/scripts/main/aim2"))()
    end,
 })
 
