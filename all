@@ -182,10 +182,3 @@ local Button4 = TPTab:CreateButton({
         loadstring(game:HttpGet"https://raw.githubusercontent.com/Basicallyy/Basicallyy/main/MinGamingV4.lua")()
    end,
 })
-
-local Button5 = TPTab:CreateButton({
-   Name = "传送",
-   Callback =local function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/Infinity2346/Tect-Menu/main/Teleport%20Gui.lua'))()
-   end,
-})
