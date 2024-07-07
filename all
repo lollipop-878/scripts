@@ -153,38 +153,3 @@ local Button3 = TPTab:CreateButton({
 })
 
 local TPTab = Window:CreateTab("🎲 其他脚本 ", nil) -- Title, Image
-
-local Button1 = TPTab:CreateButton({
-   Name = "chat SPY",
-   Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/lollipop-878/scripts/main/chat%20esp"))()
-   end,
-})
-
-local Button2 = TPTab:CreateButton({
-   Name = "fly",
-   Callback = function()
-        loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Fly-GUI-V3-9511"))()
-   end,
-})
-
-local Button3 = TPTab:CreateButton({
-   Name = "a dusty trip",
-   Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/ADustyTrip",true))()
-   end,
-})
-
-local Button4 = TPTab:CreateButton({
-   Name = "海贼王脚本",
-   Callback = function()
-        loadstring(game:HttpGet"https://raw.githubusercontent.com/Basicallyy/Basicallyy/main/MinGamingV4.lua")()
-   end,
-})
-
-local Button5 = TPTab:CreateButton({
-   Name = "tp",
-   Callback =local function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/Infinity2346/Tect-Menu/main/Teleport%20Gui.lua'))()
-   end,
-})
