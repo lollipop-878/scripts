@@ -195,3 +195,10 @@ local Button5 = TPTab:CreateButton({
         loadstring(game:HttpGet"https://raw.githubusercontent.com/Basicallyy/Basicallyy/main/MinGamingV4.lua")()
    end,
 })
+
+local Button6 = TPTab:CreateButton({
+   Name = "容易开锁",
+   Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/UhYskHCV"))()
+   end,
+})
