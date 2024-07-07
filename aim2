@@ -5,12 +5,12 @@ local UIS = game:GetService("UserInputService")-- Made By Mick Gordon
 local WorldToViewportPoint = CurrentCam.WorldToViewportPoint
 local mouseLocation = UIS.GetMouseLocation
 
-game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Made By Mick Gordon", Text = "Enjoy !"})
+game:GetService("StarterGui"):SetCore("SendNotification", {Title = "使用z 关闭悬浮", Text = "欢迎使用!"})
 
 local DeleteMob ={
     GUi = {
-        OpenNCloseButton = true; -- Have A Button For It
-        KeybindEnable = false; -- If You Want A Bind For The Menu
+        OpenNCloseButton = false; -- Have A Button For It
+        KeybindEnable = true; -- If You Want A Bind For The Menu
         Keybind = "z"; -- Menu Key Bind
     };
 	Aimbot= {
