@@ -1,9 +1,9 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "🔥 脚本大全 | Game 🔥",
-   LoadingTitle = "🔥 脚本大全 | Game 🔥",
-   LoadingSubtitle = "by Fzy",
+   Name = "🔥 Example Script Hub | Game 🔫",
+   LoadingTitle = "🔫 Gun Simulator 💥",
+   LoadingSubtitle = "by 1_F0",
    ConfigurationSaving = {
       Enabled = false,
       FolderName = nil, -- Create a custom folder for your hub/game
@@ -16,13 +16,13 @@ local Window = Rayfield:CreateWindow({
    },
    KeySystem = true, -- Set this to true to use our key system
    KeySettings = {
-      Title = "请输入你的密码",
-      Subtitle = "密码系统",
-      Note = "密码 来问我  YIN 是我的男神 你们谁都别欺负他🥰🥰🥰 ",
+      Title = "Key | Youtube Hub",
+      Subtitle = "Key System",
+      Note = "Key In Discord Server",
       FileName = "YoutubeHubKey1", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
-      SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      SaveKey = false, -- The user's key will be saved, but if you change the key, they will be unable to use your script
       GrabKeyFromSite = true, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-      Key = {"https://pastebin.com/raw/r3Tg9WGN"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+      Key = {"https://pastebin.com/raw/AtgzSPWK"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
    }
 })
 
@@ -30,13 +30,13 @@ local MainTab = Window:CreateTab("🏠 Home", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("Main")
 
 Rayfield:Notify({
-   Title = "脚本集合地",
-   Content = "欢迎使用此脚本",
+   Title = "You executed the script",
+   Content = "Very cool gui",
    Duration = 5,
    Image = 13047715178,
    Actions = { -- Notification Buttons
       Ignore = {
-         Name = "好的",
+         Name = "Okay!",
          Callback = function()
          print("The user tapped Okay!")
       end
@@ -129,56 +129,27 @@ local Toggle = MainTab:CreateToggle({
    end,
 })
 
-local TPTab = Window:CreateTab("☠️criminality👺", nil) -- Title, Image
+local TPTab = Window:CreateTab("🏝 Teleports", nil) -- Title, Image
 
 local Button1 = TPTab:CreateButton({
-   Name = "aimbot",
+   Name = "Starter Island",
    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/lollipop-878/scripts/main/aim"))()
+        --Teleport1
    end,
 })
 
 local Button2 = TPTab:CreateButton({
-   Name = "esp",
+   Name = "Pirate Island",
    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/lollipop-878/scripts/main/esp"))()
+        --Teleport2
    end,
 })
 
 local Button3 = TPTab:CreateButton({
-   Name = "aim2",
+   Name = "Pineapple Paradise",
    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/lollipop-878/scripts/main/aim2"))()
+        --Teleport3
    end,
 })
 
-local TPTab = Window:CreateTab("🎲 其他脚本 ", nil) -- Title, Image
-
-
-local Button1 = TPTab:CreateButton({
-   Name = "chat SPY",
-   Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/lollipop-878/scripts/main/chat%20esp"))()
-   end,
-})
-
-local Button2 = TPTab:CreateButton({
-   Name = "fly",
-   Callback = function()
-        loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Fly-GUI-V3-9511"))()
-   end,
-})
-
-local Button3 = TPTab:CreateButton({
-   Name = "a dusty trip",
-   Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/ADustyTrip",true))()
-   end,
-})
-
-local Button4 = TPTab:CreateButton({
-   Name = "海贼王脚本",
-   Callback = function()
-        loadstring(game:HttpGet"https://raw.githubusercontent.com/Basicallyy/Basicallyy/main/MinGamingV4.lua")()
-   end,
-})
+local TPTab = Window:CreateTab("🎲 Misc", nil) -- Title, Image
