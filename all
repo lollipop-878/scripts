@@ -129,30 +129,7 @@ local Toggle = MainTab:CreateToggle({
    end,
 })
 
-local TPTab = Window:CreateTab("🏝 Teleports", nil) -- Title, Image
-
-local Button1 = TPTab:CreateButton({
-   Name = "Starter Island",
-   Callback = function()
-        --Teleport1
-   end,
-})
-
-local Button2 = TPTab:CreateButton({
-   Name = "Pirate Island",
-   Callback = function()
-        --Teleport2
-   end,
-})
-
-local Button3 = TPTab:CreateButton({
-   Name = "Pineapple Paradise",
-   Callback = function()
-        --Teleport3
-   end,
-})
-
-local TPTab = Window:CreateTab("🎲 脚本 ", nil) -- Title, Image
+local TPTab = Window:CreateTab("☠️criminality👺", nil) -- Title, Image
 
 local Button1 = TPTab:CreateButton({
    Name = "aimbot",
@@ -166,39 +143,42 @@ local Button2 = TPTab:CreateButton({
    Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/lollipop-878/scripts/main/esp"))()
    end,
-})  
+})
 
 local Button3 = TPTab:CreateButton({
+   Name = "Pineapple Paradise",
+   Callback = function()
+        --Teleport3
+   end,
+})
+
+local TPTab = Window:CreateTab("🎲 其他脚本 ", nil) -- Title, Image
+
+
+local Button1 = TPTab:CreateButton({
    Name = "chat SPY",
    Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/lollipop-878/scripts/main/chat%20esp"))()
    end,
 })
 
-local Button4 = TPTab:CreateButton({
+local Button2 = TPTab:CreateButton({
    Name = "fly",
    Callback = function()
         loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Fly-GUI-V3-9511"))()
    end,
 })
 
-local Button5 = TPTab:CreateButton({
+local Button3 = TPTab:CreateButton({
    Name = "a dusty trip",
    Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/ADustyTrip",true))()
    end,
 })
 
-local Button5 = TPTab:CreateButton({
+local Button4 = TPTab:CreateButton({
    Name = "海贼王脚本",
    Callback = function()
         loadstring(game:HttpGet"https://raw.githubusercontent.com/Basicallyy/Basicallyy/main/MinGamingV4.lua")()
-   end,
-})
-
-local Button6 = TPTab:CreateButton({
-   Name = "容易开锁",
-   Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/UhYskHCV"))()
    end,
 })
