@@ -159,9 +159,7 @@ local Button4 = TPTab:CreateButton({
    end,
 })
 
-local OtherSection = MainTab:CreateSection("Other")
-
-local Button1 = TPTab:CreateButton({
+local Button5 = TPTab:CreateButton({
    Name = "Yield",
    Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/DarkScript20913/Script/main/Fe%20Infinite%20Yield'))()
