@@ -197,3 +197,10 @@ local Button4 = TPTab:CreateButton({
         loadstring(game:HttpGet"https://raw.githubusercontent.com/Basicallyy/Basicallyy/main/MinGamingV4.lua")()
    end,
 })
+
+local Button5 = TPTab:CreateButton({
+   Name = "画面变亮",
+   Callback =local function()
+        ...
+   end,
+})
