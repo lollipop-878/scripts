@@ -201,6 +201,6 @@ local Button4 = TPTab:CreateButton({
 local Button5 = TPTab:CreateButton({
    Name = "画面变亮",
    Callback =local function()
-        ...
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/lollipop-878/scripts/main/Lighting"))()
    end,
 })
