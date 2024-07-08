@@ -146,7 +146,7 @@ local Button2 = TPTab:CreateButton({
 })
 
 local Button3 = TPTab:CreateButton({
-   Name = "aim2",
+   Name = "aim esp",
    Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/lollipop-878/scripts/main/aim2"))()
    end,
@@ -156,13 +156,6 @@ local Button4 = TPTab:CreateButton({
    Name = "fling 把人顶飞",
    Callback = function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/obf_rf6iQURzu1fqrytcnLBAvW34C9N55kS9g9G3CKz086rC47M6632sEd4ZZYB0AYgV.lua.txt'),true))()
-   end,
-})
-
-local Button5 = TPTab:CreateButton({
-   Name = "Yield",
-   Callback = function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/DarkScript20913/Script/main/Fe%20Infinite%20Yield'))()
    end,
 })
 
