@@ -160,3 +160,12 @@ local Button4 = TPTab:CreateButton({
         loadstring(game:HttpGet"https://raw.githubusercontent.com/Basicallyy/Basicallyy/main/MinGamingV4.lua")()
    end,
 })
+
+local TPTab = Window:CreateTab("🤡 锁头脚本 ", nil) -- Title, Image
+
+local Button1 = TPTab:CreateButton({
+   Name = "aimbot",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/lollipop-878/scripts/main/%E5%BC%BA%E5%88%B6%E9%94%81%E5%A4%B4"))()
+   end,
+})
