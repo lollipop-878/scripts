@@ -164,8 +164,8 @@ local Button4 = TPTab:CreateButton({
 local TPTab = Window:CreateTab("🤡 锁头脚本 ", nil) -- Title, Image
 
 local Button1 = TPTab:CreateButton({
-   Name = "aimbot",
+   Name = "锁头 只可以用近战武器 关闭使用z ",
    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/lollipop-878/scripts/main/%E5%BC%BA%E5%88%B6%E9%94%81%E5%A4%B4"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/lollipop-878/scripts/main/headaim"))()
    end,
 })
