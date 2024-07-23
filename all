@@ -163,9 +163,16 @@ local Button4 = TPTab:CreateButton({
 
 local TPTab = Window:CreateTab("🤡 锁头脚本 ", nil) -- Title, Image
 
-local Button1 = TPTab:CreateButton({
+local Button2 = TPTab:CreateButton({
    Name = "锁头 只可以用近战武器 关闭使用z ",
    Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/lollipop-878/scripts/main/headaim"))()
+   end,
+})
+
+local Button1 = TPTab:CreateButton({
+   Name = "criminality 多功能🤩",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/lollipop-878/scripts/main/crimore"))()
    end,
 })
