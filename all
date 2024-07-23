@@ -101,7 +101,7 @@ local Toggle = MainTab:CreateToggle({
    end,
 })
 
-local TPTab = Window:CreateTab("☠️criminality👺", nil) -- Title, Image
+local TPTab = Window:CreateTab("☠️criminality脚本111", nil) -- Title, Image
 
 local Button1 = TPTab:CreateButton({
    Name = "aimbot",
@@ -161,10 +161,10 @@ local Button4 = TPTab:CreateButton({
    end,
 })
 
-local TPTab = Window:CreateTab("🤡 锁头脚本 ", nil) -- Title, Image
+local TPTab = Window:CreateTab("🤡 criminality脚本222", nil) -- Title, Image
 
 local Button2 = TPTab:CreateButton({
-   Name = "锁头 只可以用近战武器 关闭使用z ",
+   Name = "锁头 只可以用近战武器 使用的时候按r 不能用远程武器 ",
    Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/lollipop-878/scripts/main/headaim"))()
    end,
