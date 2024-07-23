@@ -1,3 +1,0 @@
-attach server v1 follow aura - ```getgenv().Key = Enum.KeyCode.z -- change to your key
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/lollipop-878/scripts/main/h"))()
