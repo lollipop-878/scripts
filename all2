@@ -14,24 +14,10 @@ OrionLib:MakeNotification({
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
-Tab:AddButton1({
-	Name = "海贼王脚本v4",
-	Callback = function()
-	    loadstring(game:HttpGet"https://raw.githubusercontent.com/Basicallyy/Basicallyy/main/MinGamingV4.lua")()
-      		print("button pressed")
-  	end    
-})
-Tab:AddButton2({
+Tab:AddButton({
 	Name = "Yield!",
 	Callback = function()
 	    loadstring(game:HttpGet('https://raw.githubusercontent.com/DarkScript20913/Script/main/Fe%20Infinite%20Yield'))()
-      		print("button pressed")
-  	end    
-})
-Tab:AddButton3({
-	Name = "fly",
-	Callback = function()
-	    loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Fly-GUI-V3-9511"))()
       		print("button pressed")
   	end    
 })
