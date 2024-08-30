@@ -86,3 +86,16 @@ Tab:AddDropdown({
 --Dropdown:Set("dropdown option")
 OrionLib:Init()
 -- destroying the interface: OrionLib:Destroy()
+
+local Tab = Window:MakeTab({
+	Name = "Tab 2",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "海贼王脚本v4",
+	Callback = function()
+	    loadstring(game:HttpGet"https://raw.githubusercontent.com/Basicallyy/Basicallyy/main/MinGamingV4.lua")()
+      		print("button pressed")
+  	end    
+})
