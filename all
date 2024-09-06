@@ -183,3 +183,10 @@ local Button3 = TPTab:CreateButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/lollipop-878/scripts/main/crimoremoblie"))()
    end,
 })
+
+local Button4 = TPTab:CreateButton({
+   Name = "criminality 多功能 手机版🤑",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/lollipop-878/scripts/main/critest"))()
+   end,
+})
