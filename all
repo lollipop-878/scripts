@@ -164,7 +164,7 @@ local Button4 = TPTab:CreateButton({
 local TPTab = Window:CreateTab("🤡 criminality脚本222", nil) -- Title, Image
 
 local Button1 = TPTab:CreateButton({
-   Name = "锁头 只可以用近战武器 使用的时候按F 最远距离20m ",
+   Name = "锁头 只可以用近战武器 使用的时候按t 最远距离30m ",
    Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/lollipop-878/scripts/main/headaim"))()
    end,
