@@ -190,3 +190,12 @@ local Button4 = TPTab:CreateButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/lollipop-878/scripts/main/critest"))()
    end,
 })
+
+local TPTab = Window:CreateTab("犯罪新版脚本👍 ", nil) -- Title, Image
+
+local Button1 = TPTab:CreateButton({
+   Name = "新版脚本刷钱",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/lollipop-878/scripts/refs/heads/main/Crimnew"))()
+   end,
+})
