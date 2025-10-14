@@ -143,7 +143,7 @@ local Button1 = TPTab:CreateButton({
 local Button2 = TPTab:CreateButton({
    Name = "fly",
    Callback = function()
-        loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Fly-GUI-V3-9511"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
    end,
 })
 
