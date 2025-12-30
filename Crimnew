@@ -1598,7 +1598,7 @@ local autofarmCooldown = false
 local ignoredSafes = {}
 
 -- Global Variables for Ping
-local pingThreshold = 100 -- You can adjust this value
+local pingThreshold = 200 -- You can adjust this value
 local isPingHigh = false
 
 -- Placeholder for CoolDowns if not defined globally yet
